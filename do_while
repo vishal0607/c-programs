@@ -1,0 +1,15 @@
+//do while loop for printing 100 to 1
+#include <stdio.h>
+#include <conio.h>
+int main()
+{
+int i,a,b;
+printf("Enter the value ");
+scanf("\t",&i);
+do
+{
+printf("%d",i--);
+}
+while(i!=0);
+return 0;
+}
